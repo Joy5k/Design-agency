@@ -23,10 +23,10 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li className='hover:text-[#20B15A] hover:bg-transparent  hover:border-[#20B15A] hover:font-semi-bold '><a className='hover:text-[#20B15A] hover:border-[#20B15A]'>Home</a></li>
-       <li><a>Team</a></li>
-       <li><a>Service</a></li>
-       <li><a>Projects</a></li>
-       <li><a>Testimonial</a></li>
+       <li><a className='hover:text-[#20B15A] hover:border-[#20B15A]'>Service</a></li>
+       <li><a className='hover:text-[#20B15A] hover:border-[#20B15A]'>Team</a></li>
+       <li><a className='hover:text-[#20B15A] hover:border-[#20B15A]'>Projects</a></li>
+       <li><a className='hover:text-[#20B15A] hover:border-[#20B15A]'>Testimonial</a></li>
      </ul>
   </div>
   <div className="navbar-end">
