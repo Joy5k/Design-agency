@@ -7,7 +7,6 @@ const StatList = () => {
         fetch("https://agency.teamrabbil.com/api/StatList")
             .then(res => res.json())
             .then(data => {
-                console.log(data,'statList');
                 setData(data)
             })
     },[])

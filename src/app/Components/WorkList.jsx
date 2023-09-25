@@ -13,7 +13,6 @@ const WorkList = () => {
         fetch('https://agency.teamrabbil.com/api/WorkList')
             .then(res => res.json())
             .then(data => {
-                console.log(data, 'work data');
                 setData(data);
             })
     },[])
