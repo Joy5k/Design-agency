@@ -15,7 +15,6 @@ const Hero = () => {
         fetch('https://agency.teamrabbil.com/api/HeroList')
             .then(res => res.json())
             .then(data => {
-                console.log(data, 'Data');
                 setData(data);
             })
     },[])
