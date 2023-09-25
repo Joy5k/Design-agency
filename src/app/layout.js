@@ -1,4 +1,5 @@
 import Navbar from './Components/Navbar'
+import Subscription from './Components/Subscription'
 import Footer from './Pages/Footer/Footer'
 import './globals.css'
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar></Navbar>
         {children}
+        <Subscription></Subscription>
         <Footer></Footer>
       </body>
     </html>

@@ -20,7 +20,7 @@ const Hero = () => {
             })
     },[])
     return (
-        <div>
+        <div className="bg-green-100">
             <section className='relative bg-green-100 mb-10'>
                 <div className='relative pt-12 lg:pt-20 pb-20 z-10'>
                     <div className='container mx-auto px-4'>
@@ -55,7 +55,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mb-4 bg-white p-8 h-[120px] relative grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2 px-auto align-middle justify-center">
+                <div className=" bg-white p-8 h-[120px] relative grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2 px-auto align-middle justify-center">
                     <img className="ml-8 w-24 h-7" src="https://bit.ly/462iNQV" alt="" />
                     <img className=" w-24 h-7" src="https://rewind.com/wp-content/uploads/2021/03/trello-logo-gradient-blue@2x-e1616511446344-300x84.png" alt="" />
                   
