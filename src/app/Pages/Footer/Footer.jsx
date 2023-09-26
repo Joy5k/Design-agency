@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <footer className="footer p-10 bg-black text-white">
             <nav>
-            <header className="footer-title">Social</header> 
+            <Link href="/"  className="btn btn-ghost normal-case text-xl font-bold"><span className='-mr-2'>Design</span><span className='text-red-500'>Agency</span></Link>
             <p>Some footer text about the <br />
               Agency. Just a little description to <br />
               help people understand you better</p>
