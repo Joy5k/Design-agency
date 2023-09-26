@@ -5,7 +5,7 @@ import { HiArrowSmRight } from "react-icons/hi";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import Link from 'next/link';
 
-const page = () => {
+const Page = () => {
     const [data, setData] = useState([])
     useEffect(() => {
         fetch('https://agency.teamrabbil.com/api/TeamList')
@@ -64,4 +64,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
