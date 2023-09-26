@@ -25,7 +25,7 @@ const Page = () => {
             
             </Link>
             <span className='mt-1 mx-3'><HiArrowSmRight></HiArrowSmRight></span>
-          <Link className='text-green-500' href='/'>Team</Link>
+          <Link className='text-green-500' href='/Pages/team'>Team</Link>
           </div>
         </div>
                 <div className='mb-10'>

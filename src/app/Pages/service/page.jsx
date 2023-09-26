@@ -15,20 +15,20 @@ const Page = () => {
       })
   },[])
   return (
-    <div className='px-[100px] py-[80px]'>
-          <div className=' pb-20 pt-5 w'>
-          <h1 className='text-3xl font-bold my-16'>Team</h1>
+    <div className='px-[100px] '>
+          <div className=' pb-20'>
+          <h1 className='text-3xl font-bold my-16'>Services</h1>
           <div className='flex align-middle'>
 
             <Link className='inline' href='/'>Home
             
             </Link>
             <span className='mt-1 mx-3'><HiArrowSmRight></HiArrowSmRight></span>
-          <Link className='text-green-500' href='/'>Services</Link>
+          <Link className='text-green-500' href='/Pages/services'>Services</Link>
           </div>
         </div>
 
-        <div className='mb-10'>
+        <div className='mb-10 py-[80px]'>
                 <p className='text-xl font-semibold text-green-500'>Our All Services</p>
                 <h3 className='font-bold text-3xl'>We Provide BestWeb design <br /> services</h3>
         </div>
