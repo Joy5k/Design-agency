@@ -26,10 +26,11 @@ const Footer = () => {
  
   <nav>
     <header className="footer-title">Quick Links</header> 
-    <Link href="/" className="link link-hover">Service</Link> 
-    <Link href="/" className="link link-hover">Portfolio</Link> 
-    <Link href="/" className="link link-hover">About Us</Link> 
-    <Link href="/" className="link link-hover">Contact Us</Link>
+    <Link href="/"  className='hover:text-[#20B15A] hover:border-[#20B15A]'>Home</Link>
+       <Link  href="/Pages/service" className='hover:text-[#20B15A] hover:border-[#20B15A]'>Service</Link>
+       <Link href="/Pages/team"  className='hover:text-[#20B15A] hover:border-[#20B15A]'>Team</Link>
+       <Link href="/Pages/Allprojects"  className='hover:text-[#20B15A] hover:border-[#20B15A]'>Projects</Link>
+       <Link href="/Pages/Testimonial"  className='hover:text-[#20B15A] hover:border-[#20B15A]'>Testimonial</Link>
           </nav> 
           <nav>
     <header className="footer-title ">Address</header> 
